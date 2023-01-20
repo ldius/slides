@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Data Science for Linguists</title>
+    <title>Language discrimination in the US</title>
     <meta charset="utf-8" />
     <meta name="author" content="Joseph V. Casillas, PhD" />
     <script src="assets/header-attrs/header-attrs.js"></script>
@@ -12,7 +12,7 @@
     <script src="assets/tile-view/tile-view.js"></script>
     <link href="assets/panelset/panelset.css" rel="stylesheet" />
     <script src="assets/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x41430ce2cba40eca1c82f10825fa4a9","expires":14}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x93bf58bd8e144bd9cc51b780cc606e3","expires":14}</script>
     <script src="assets/himalaya/himalaya.js"></script>
     <script src="assets/js-cookie/js.cookie.js"></script>
     <link href="assets/editable/editable.css" rel="stylesheet" />
@@ -21,8 +21,6 @@
     <link href="assets/xaringanExtra-search/search.css" rel="stylesheet" />
     <script src="assets/xaringanExtra-search/search.js"></script>
     <script>window.addEventListener('load', function() { window.xeSearch = new RemarkSearch({"position":"bottom-left","caseSensitive":false,"showIcon":false,"autoSearch":true}) })</script>
-    <script src="assets/kePrint/kePrint.js"></script>
-    <link href="assets/lightable/lightable.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/5235085b15.js"></script>
   </head>
   <body>
@@ -30,7 +28,7 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# Data Science for Linguists
+# Language discrimination in the US
 ]
 .subtitle[
 ## Program
@@ -39,7 +37,7 @@ class: center, middle, inverse, title-slide
 ### Joseph V. Casillas, PhD
 ]
 .date[
-### Rutgers University</br>Spring 2023</br>Last update: 2022-12-04
+### Rutgers University</br>Spring 2023</br>Last update: 2023-01-19
 ]
 
 ---
@@ -53,8 +51,8 @@ class: center, middle, inverse, title-slide
 # Overview
 
 Spring 2023  
-Monday 10:20 – 13:20  
-Meetings: AB 5190
+Friday 10:20 – 13:20  
+Meetings: HC S120
 Professor: Joseph Casillas  
 
 Office: AB 5174  
@@ -78,7 +76,7 @@ Email: joseph.casillas@rutgers.edu
 https://jvcasillas.youcanbook.me
 
 
-&lt;iframe src="https://jvcasillas.youcanbook.me" height="500" width=100% frameborder=0&gt;&lt;/iframe&gt;
+&lt;iframe src="https://jvcasillas.youcanbook.me" height="400" width=100% frameborder=0&gt;&lt;/iframe&gt;
 
 ]
 
@@ -86,14 +84,19 @@ https://jvcasillas.youcanbook.me
 
 # Course desecription
 
-### SPAN589: Data Science for Linguistics
+### Honors seminar 293: Language discrimination in the US
 
-In this course students examine the fundamental principles of doing experimental  research in linguistics. 
-Specifically, the focus is on developing an in depth understanding of the experimental paradigms and statistical procedures used in sociolinguistics, phonetics, psycholinguistics, syntax, and corpus linguistics. 
-Students will learn advanced techniques used to explore, tidy, visualize, and analyze data. 
-We will also focus on how to make the aforementioned procedures reproducible and shareable. Students will develop a foundation in programming in R, as well as learning the most common tools at the disposal of todays data scientist (i.e. GitHub, Knitr, etc.). 
-No prior experience with statistics or programming is necessary.
-Pre-requisites: SPAN 361 or 363
+All languages show variation over time and space. 
+From the moment we are exposed to our first language, we begin to take note of *who* says *what* and *how* they say it. 
+A fundamental tenet of our nation is that discrimination on the grounds of skin color, ethnicity, gender, or age is unacceptable.
+Yet, it seems we do not apply this same principle to language. 
+On the contrary, it is commonplace for individuals and groups of people to be judged on the basis of language form rather than language content. 
+This course focuses on language, ideology, and linguistic discrimination, with a focus on the context of the United States. 
+We will examine our beliefs about the nature of language and its use in the social world (language ideologies), as well as consider situations in which a given language or language variety is ascribed hegemonic power over others (language subordination). 
+Students will learn a model of language subordination and come to understand how it both contributes to and results from policy, planning, and education. 
+We will focus on principles of language variation and change that will show that language subordination and discrimination are equivalent to other forms of discrimination. 
+Through case studies and personal reflection, students will critically analyze myths about accents and standard language ideologies---both their own and those of others---with the primary goal of becoming linguist(ic) activists.  
+**Prerequisites**: None.
 
 ---
 layout: true
@@ -102,48 +105,21 @@ layout: true
 
 ---
 
-### Class websites
+### Class website
 
-- Canvas: https://rutgers.instructure.com/courses/221415
-
-- Class website: https://www.ds4ling.jvcasillas.com
-
----
+- Canvas: https://rutgers.instructure.com/courses/211354
 
 ### Books
 
 
-|     |                                                                                 |                 |
-| --- | ------------------------------------------------------------------------------- | --------------- |
-|   1 | Wickham, H., &amp; Grolemund, G. (2017). R for Data Science. O'Reilly Media.        | [Online][book1] |
-|     |                                                                                 |                 |
-|   2 | Johnson, K. (2008). Quantitative Methods in Linguistics. Blackwell Publishing.  | [Amazon][book2] |
-|     |                                                                                 |                 |
-|   3 | Lewis-Beck, M. (1980). Applied Regression: An Introduction. Volume 22 of        | [Amazon][book3] |
-|     | Quantitative Applications in the Social Sciences. Sage Publications.            |                 |
-|     |                                                                                 |                 |
-|   4 | Berry, W., &amp; Feldman, S. (1985). Multiple Regression in Practice. Issue 50.     | [Amazon][book4] |
-|     | Quantitative Applications in the Social Sciences. Sage Publications.            |                 |
-|     |                                                                                 |                 |
-|   5 | Schroeder, L. D., Sjoquist, D. L., &amp; Stephan, P. E. (1986). Understanding       | [Amazon][book5] |
-|     | Regression Analysis: An Introductory Guide. Issue 57. Quantitative Applications |                 |
-|     | in the Social Sciences. Sage Publications.                                      |                 |
-|     |                                                                                 |                 |
-|   6 | Hardy, M. A. (1993). Regression with Dummy Variables. Issue 93. Quantitative    | [Amazon][book6] |
-|     | Applications in the Social Sciences. Sage Publications.                         |                 |
 
-[book1]: http://r4ds.had.co.nz
-[book2]: http://a.co/9ArHNqO
-[book3]: http://a.co/2zyfhXj
-[book4]: http://a.co/8jcU0ef
-[book5]: http://a.co/gE2xmLr
-[book6]: http://a.co/8Spewd9
 
----
+
+- Lippi-Green, R. (2012). *English with an accent: Language, ideology, and discrimination in the United States*. Routledge.
 
 ### Weekly readings
 
-Students will receive a package of readings to be distributed in electronic format (.pdf).
+All readings will be available in electronic format (.pdf) via canvas.
 
 ---
 layout: true
@@ -157,109 +133,60 @@ layout: true
 |                               |     |     |         |
 | :---------------------------- | --: | :-- | ------: |
 | Preparation and participation | 15% | A   | 92--100 |
-| Programming assignments       | 40% | B+  |  87--91 |
-| Online presentation           | 10% | B   |  80--86 |
-| Midterm exam                  | 15% | C+  |  77--79 |
-| Research project              | 20% | C   |  70--76 |
-| - paper (8%)                  |     | D   |  65--69 |
-| - presentation (6%)           |     | F   |   0--64 |
-| - peer review (6%)            |     |     |         |
+| Online discussion             | 15% | B+  | 87--91  |
+| Personal reflections          | 20% | B   | 80--86  |
+| Reading responses             | 15% | C+  | 77--79  |
+| Discrimination in the wild    | 15% | C   | 70--76  |
+| Research project              | 20% | D   | 65--69  |
+|  - Group presentation (10%)   |     | F   |  0--64  |
+|  - Paper (10%)                |     |     |         |
 
 ---
 
 ### Preparation and participation
 
 Students are expected to attend class prepared and to actively participate. 
-Part of this grade is derived from reading summaries. 
-Students will occasionally be required to write a brief summary (max. 1 page) of the weekly readings and answer assigned questions. 
+
+### Online discussion
+
+Occasionally students will be asked to respond to prompts and/or discuss readings using the canvas discussion forum. 
+Posts should be respectful, relevant contributions to the topic at hand and should be submitted *before* coming to class. 
 
 ---
 
-### Programming assignments
+### Personal reflections
 
-Students will complete 5 programming assignments over the course of the  semester. 
-These assignments are designed in a way so that the student must demonstrate adequate knowledge of basic programming and statistical principles covered in class. 
-The skills required in each assignment are cumulative, each building on the material learned in the previous weeks. 
-All statistical programming assignments must be completed in RMarkdown and will be handed in via GitHub unless otherwise noted.
+In these exercises students will be given a prompt and asked to reflect on their own attitudes toward non‐standard language or accents; some also require gathering information from other people and comparing their responses. (approx. 1 page)
 
----
+### Reading responses
 
-### Online presentation
-
-The presentation will be on the statistical analyses used in some published paper. 
-This presentation must be hosted on GitHub and in HTML format using RMarkdown. 
-Aside from creating an online presentation, students will also be required to read and comment on the presentations of two classmates.
+Similar to online discussions, occasionally students will be asked to discuss a particular reading. 
+Reading responses differ from online discussions in that they are expected to be longer (approx. 1 page) and more formal. 
+Reading responses should be microsoft word documents submitted via canvas. 
 
 ---
 
-### Midterm exam
+### Discrimination in the wild
 
-
-There will be an in-class exam during the 13th week of the semester (April 17th). 
-In reality the midterm exam is just another programming assignment that is worth more points. 
-Details will be provided beforehand. 
+Students will find and document examples of linguistic prejudice in the wild. 
+These can be video/audio clips, articles from written media (newspapers, blogs), or a narrative video describing a personal experience. 
+Examples should be posted to the discussion board on Canvas and be accompanied by a short (50‐100 words) statement of how the example illustrates linguistic prejudice as discussed in the course.
 
 ---
 
 ### Research Project
 
-#### Overview
+#### Group presentation
 
-Each student will complete a research project in which they put in practice the tools learned over the course of the semester. 
-The primary focus will be on managing the project in an automatic and reproducible way so that it can be shared with other collaborators. 
-The project will be hosted on GitHub and will include the following:
-
-- slides
-- manuscript
-- r code
-- data (raw and tidy)
+In groups of 2‐3, students will identify a set of speakers targeted by linguistic prejudice and some documented negative outcome of linguistic discrimination and propose steps towards mitigation. 
+Students can propose their own topics/groups, but they should shoud be approved by the professor. 
+There will be in‐class prep time and group presentations (15‐20 minutes) will take place in the final weeks of the semester.
 
 ---
-
-### Research Project
-
-#### Overview
-
-Students have two options regarding the type of project they do:
-
-1. Personal project (real)
-    - For advanced students working on their own data
-    - Ideal for QP, thesis, other projects
-2. Hypothetical project (simulated)
-    - For students w/o data
-    - Ideal for students in proposal phase (IRB, NSF, ect.)
-
-All projects require the prior approval of the professor. 
-Project due dates will be established in class, but can be expected to be due several days before the university assigned final exam (though there is no exam).
-
----
-
-### Research Project
 
 #### Paper
 
-The manuscript will be a write up of the methods/results sections of a research article. 
-The focus is on clearly and accurately explaining the statistical analyses used in the project and appropriately interpreting the results. 
-The paper must be a literate document written in RMarkdown using `papaja`. 
-We will demo this in class.
-
-#### Presentation
-
-Students will present their work in a semi-finished state during the final week of the semester (10 min. presentation + 5 min. for questions). 
-The slides of this presentation are part of the project and must also be hosted on GitHub.
-
----
-
-### Research Project
-
-#### Peer review
-
-Each student is required to evaluate the project of two other students. 
-They will fork the project in order to evaluate the reproducibility of the code and the statistical validity of the analysis. 
-Students will write up two evaluations for each peer: one for the professor (not to be seen by anybody else), and one for the owner of the project in the form of an issue/comment on GitHub. 
-The evaluation written for the professor should be longer and more in depth. 
-Both evaluations should be written in the style of a peer review for an academic journal, thus they should include comments, questions, suggestions, and *constructive* criticisms (\#BeReviewer1). 
-The point of this excersize is to help the author make the final product better.
+Each student will individually write up an expanded version of their group project providing (a) the background on a documented prejudice and/or discrimination towards some set of speakers (b) a proposal for reduction of prejudice or mitigation of its discriminatory effects and (c) a discussion of the relationship of the proposal to other proposals for mitigations and their ethical bases (5‐8 pages).
 
 ---
 layout: true
@@ -273,16 +200,8 @@ More information available at: http://span-port.rutgers.edu/learning-goals
 
 ### Communication
 
-All course communication will be via Slack. 
-You should have received an email with an invitation link to join the course Slack. 
-Some rules for using Slack:
-
-- Use an identifiable username and add your picture to your profile.
-- Only the professor is allowed to use the @channel and @here mentions.
-- While this is an informal communication channel, all rules of academic 
-discourse apply.
-- Ask and answer questions on the appropriate channel.
-- Create channels as needed, especially for study groups.
+All course communication will be via email. 
+Remember that all correspondence should include your name, RU id, and the course title/number. 
 
 ---
 
@@ -327,124 +246,61 @@ To begin this process, please complete the Registration form on the ODS web site
 
 ---
 layout: false
+class: center, middle
 
-&lt;table class="table lightable-paper lightable-striped lightable-hover" style='font-size: 18px; margin-left: auto; margin-right: auto; font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto;'&gt;
- &lt;thead&gt;
-  &lt;tr&gt;
-   &lt;th style="text-align:left;"&gt; Date &lt;/th&gt;
-   &lt;th style="text-align:left;"&gt; Stats &lt;/th&gt;
-   &lt;th style="text-align:left;"&gt; Programming &lt;/th&gt;
-  &lt;/tr&gt;
- &lt;/thead&gt;
-&lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 1: 01/23 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Getting started. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; GitHub, R, and RStudio. &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 2: 01/30 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Variables, distributions. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; RStudio projects, RMarkdown, ggplot. PA1 assigned. &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 3: 02/06 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; NHST, comparing means. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; R basics, getting/tidying data, ggplot. &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 4: 02/13 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Bivariate correlation. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; PA2 assigned, R basics, tidying data, ggplot. &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 5: 02/20 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; The linear model/regression. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; R basics, GitHub Pages. &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 6: 02/27 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; The linear model/regression. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; PA3 assigned, R basics, HTML presentations, slidify &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 7: 03/06 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; The linear model/regression. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; HTML presentations, xaringan. &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; 03/11 - 03/19 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Spring break. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 8: 03/20 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; The linear model/regression. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; PA4 assigned, papaja. &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 9: 03/27 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; General Linear Model. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Modeling tips and tricks. &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 10: 04/03 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; General Linear Model. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; PA5 assigned, modeling tips and tricks. &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 11: 04/10 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Generalized Linear Model. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Online presentations due. &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 12: 04/17 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Multilevel models. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Online presentation comments due. &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 13: 04/24 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Bayesian inference. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Mid-term &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 14: 05/01 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Residuals. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Research project presentations. &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 15: 05/03 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Reading day. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; Week 16: 05/10 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Final exam day. &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Projects due before 12pm. &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+.tiny[
 
----
-class: title-slide-final, middle
-background-image: url(https://github.com/jvcasillas/ru_xaringan/raw/master/img/logo/ru_shield.png)
-background-size: 55px
-background-position: 9% 15%
 
-# Data Science for Linguists
 
-## https://ds4ling.github.io
-
-### Save the link to the website in your favorites
-
-More ways to contact me:  
-
-|                                                                                                            |                                   |
-| :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
-| &lt;a href="mailto:joseph.casillas@rutgers.edu"&gt;.RUred[&lt;i class="fa fa-paper-plane fa-fw"&gt;&lt;/i&gt;]               | joseph.casillas@rutgers.edu       |
-| &lt;a href="http://twitter.com/jvcasill"&gt;.RUred[&lt;i class="fa fa-twitter fa-fw"&gt;&lt;/i&gt;]                          | @jvcasill                         |
-| &lt;a href="http://github.com/jvcasillas"&gt;.RUred[&lt;i class="fa fa-github fa-fw"&gt;&lt;/i&gt;]                          | @jvcasillas                       |
-
+|     | Week |  Date       |                               Topic                               |
+| :-- | :--: | :---------: | :---------------------------------------------------------------- |
+|     |  1   | 01/20       | Intro, Thinking like a linguist                                   |
+|     |      |             |                                                                   |
+|     |  2   | 01/27       | Introduction, Why &amp; how does language vary?                       |
+|     |      |             | EWA: Intro (p. 1‐4), Ch. 1 (p. 5‐26)                              |
+|     |      |             |                                                                   |
+|     |  3   | 02/03       | Who has an Accent? Are some accents better than others?           |
+|     |      |             | EWA: Ch. 3 (p. 44‐54), Ch. 4 (p. 55‐65)                           |
+|     |      |             |                                                                   |
+|     |  4   | 02/10       | Where does Linguistic Prejudice come from?                        |
+|     |      |             | EWA: Ch. 6 (p. 78‐100), Ch. 7 (p. 101‐129)                        |
+|     |      |             |                                                                   |
+|     |  5   | 02/17       | How do we document (linguistic) prejudice?                        |
+|     |      |             | Strangor (2009): p. 1‐13; Becker (2018): p. 99‐107                |
+|     |      |             | Kibler (2018): p. 144‐147; Clopper (2018): p. 154‐162             |
+|     |      |             |                                                                   |
+|     |  6   | 02/24       | Who is affected by linguistic prejudice? Racial/Ethnic groups     |
+|     |      |             | Smedley &amp; Smedley (2005): p. 16‐26; EWA: Ch.10 (p. 182‐196)       |
+|     |      |             |                                                                   |
+|     |  7   | 03/03       | Who is affected by linguistic prejudice? Race/Ethnicity           |
+|     |      |             | EWA: Ch.10 (p. 196‐213), Ch. 14 (p. 255‐280)                      |
+|     |      |             |                                                                   |
+|     |  8   | 03/10       | No in person meeting                                              |
+|     |      |             |                                                                   |
+|     |      | 03/11-03/19 | **Spring break**                                                  |
+|     |      |             |                                                                   |
+|     |  9   | 03/24       | Who is affected by linguistic prejudice? Geographic origins       |
+|     |      |             | EWA: Ch. 11 (p. 214‐234)                                          |
+|     |      |             |                                                                   |
+|     |  10  | 03/31       | Who is affected by linguistic prejudice? Linguistic origins, No in person meeting |
+|     |      |             | EWA: Ch. 13 (p. 248‐255); Ruben &amp; Smith (1990): p. 337‐353        |
+|     |      |             |                                                                   |
+|     |  11  | 04/07       | Who is affected by linguistic prejudice? Gender &amp; LGBTQ (and intersections with race ethnicity/geography/class) |
+|     |      |             | Ko, Judd &amp; Stapel (2009): p. 198‐211; Campbell‐Kibler (2007): p. 32‐64 |
+|     |      |             |                                                                   |
+|     |  12  | 04/14       | How does linguistic prejudice reflect and reinforce prejudice in the world? workplace &amp; judicial system, No in person meeting |
+|     |      |             | EWA: Ch. 9 (p. 149‐181); Anderson et al (2014): p. 1‐8            |
+|     |      |             |                                                                   |
+|     |  13  | 04/21       | How does linguistic prejudice reflect and reinforce prejudice in the world? housing &amp; health care    |
+|     |      |             | EWA: Ch. 17 (p. 322‐331); Purnell et al. 1999: p. 10‐30           |
+|     |      |             |                                                                   |
+|     |  14  | 04/28       | How can we reduce linguistic prejudice and mitigate its effects? Group Presentations |
+|     |      |             | EWA: Ch. 18 (p. 332‐335); HR Daily Advisor (2016): (9); WLE (3)   |
+|     |      |             |                                                                   |
+|     |  15  | 05/04       | Reading day (no class) |
+|     |      |             |                                                                   |
+|     |  16  | 05/??       | Final exam day (papers due)                                       |
+]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

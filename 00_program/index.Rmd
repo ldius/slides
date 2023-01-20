@@ -1,5 +1,5 @@
 ---
-title   : 'Data Science for Linguists'
+title   : 'Language discrimination in the US'
 subtitle: 'Program'
 author  : "Joseph V. Casillas, PhD"
 date    : "Rutgers University</br>Spring 2023</br>Last update: `r Sys.Date()`"
@@ -31,8 +31,8 @@ xaringanExtra::use_xaringan_extra(
 # Overview
 
 Spring 2023  
-Monday 10:20 – 13:20  
-Meetings: AB 5190
+Friday 10:20 – 13:20  
+Meetings: HC S120
 Professor: Joseph Casillas  
 
 Office: AB 5174  
@@ -56,7 +56,7 @@ Email: joseph.casillas@rutgers.edu
 https://jvcasillas.youcanbook.me
 
 
-<iframe src="https://jvcasillas.youcanbook.me" height="500" width=100% frameborder=0></iframe>
+<iframe src="https://jvcasillas.youcanbook.me" height="400" width=100% frameborder=0></iframe>
 
 ]
 
@@ -64,14 +64,19 @@ https://jvcasillas.youcanbook.me
 
 # Course desecription
 
-### SPAN589: Data Science for Linguistics
+### Honors seminar 293: Language discrimination in the US
 
-In this course students examine the fundamental principles of doing experimental  research in linguistics. 
-Specifically, the focus is on developing an in depth understanding of the experimental paradigms and statistical procedures used in sociolinguistics, phonetics, psycholinguistics, syntax, and corpus linguistics. 
-Students will learn advanced techniques used to explore, tidy, visualize, and analyze data. 
-We will also focus on how to make the aforementioned procedures reproducible and shareable. Students will develop a foundation in programming in R, as well as learning the most common tools at the disposal of todays data scientist (i.e. GitHub, Knitr, etc.). 
-No prior experience with statistics or programming is necessary.
-Pre-requisites: SPAN 361 or 363
+All languages show variation over time and space. 
+From the moment we are exposed to our first language, we begin to take note of *who* says *what* and *how* they say it. 
+A fundamental tenet of our nation is that discrimination on the grounds of skin color, ethnicity, gender, or age is unacceptable.
+Yet, it seems we do not apply this same principle to language. 
+On the contrary, it is commonplace for individuals and groups of people to be judged on the basis of language form rather than language content. 
+This course focuses on language, ideology, and linguistic discrimination, with a focus on the context of the United States. 
+We will examine our beliefs about the nature of language and its use in the social world (language ideologies), as well as consider situations in which a given language or language variety is ascribed hegemonic power over others (language subordination). 
+Students will learn a model of language subordination and come to understand how it both contributes to and results from policy, planning, and education. 
+We will focus on principles of language variation and change that will show that language subordination and discrimination are equivalent to other forms of discrimination. 
+Through case studies and personal reflection, students will critically analyze myths about accents and standard language ideologies---both their own and those of others---with the primary goal of becoming linguist(ic) activists.  
+**Prerequisites**: None.
 
 ---
 layout: true
@@ -80,48 +85,27 @@ layout: true
 
 ---
 
-### Class websites
+### Class website
 
-- Canvas: https://rutgers.instructure.com/courses/221415
-
-- Class website: https://www.ds4ling.jvcasillas.com
-
----
+- Canvas: https://rutgers.instructure.com/courses/211354
 
 ### Books
 
+```{r, bib-setup, eval=TRUE, echo=FALSE, cache=FALSE, warning=FALSE, message=FALSE}
+library("RefManageR")
+library("here")
+bib <- ReadBib(here("assets", "bib", "ldius.bib"), check = FALSE)
+```
 
-|     |                                                                                 |                 |
-| --- | ------------------------------------------------------------------------------- | --------------- |
-|   1 | Wickham, H., & Grolemund, G. (2017). R for Data Science. O'Reilly Media.        | [Online][book1] |
-|     |                                                                                 |                 |
-|   2 | Johnson, K. (2008). Quantitative Methods in Linguistics. Blackwell Publishing.  | [Amazon][book2] |
-|     |                                                                                 |                 |
-|   3 | Lewis-Beck, M. (1980). Applied Regression: An Introduction. Volume 22 of        | [Amazon][book3] |
-|     | Quantitative Applications in the Social Sciences. Sage Publications.            |                 |
-|     |                                                                                 |                 |
-|   4 | Berry, W., & Feldman, S. (1985). Multiple Regression in Practice. Issue 50.     | [Amazon][book4] |
-|     | Quantitative Applications in the Social Sciences. Sage Publications.            |                 |
-|     |                                                                                 |                 |
-|   5 | Schroeder, L. D., Sjoquist, D. L., & Stephan, P. E. (1986). Understanding       | [Amazon][book5] |
-|     | Regression Analysis: An Introductory Guide. Issue 57. Quantitative Applications |                 |
-|     | in the Social Sciences. Sage Publications.                                      |                 |
-|     |                                                                                 |                 |
-|   6 | Hardy, M. A. (1993). Regression with Dummy Variables. Issue 93. Quantitative    | [Amazon][book6] |
-|     | Applications in the Social Sciences. Sage Publications.                         |                 |
+```{r, results='asis', echo=FALSE, warning=FALSE, eval=FALSE}
+PrintBibliography(bib, start = 1, end = 1)
+```
 
-[book1]: http://r4ds.had.co.nz
-[book2]: http://a.co/9ArHNqO
-[book3]: http://a.co/2zyfhXj
-[book4]: http://a.co/8jcU0ef
-[book5]: http://a.co/gE2xmLr
-[book6]: http://a.co/8Spewd9
-
----
+- Lippi-Green, R. (2012). *English with an accent: Language, ideology, and discrimination in the United States*. Routledge.
 
 ### Weekly readings
 
-Students will receive a package of readings to be distributed in electronic format (.pdf).
+All readings will be available in electronic format (.pdf) via canvas.
 
 ---
 layout: true
@@ -135,109 +119,60 @@ layout: true
 |                               |     |     |         |
 | :---------------------------- | --: | :-- | ------: |
 | Preparation and participation | 15% | A   | 92--100 |
-| Programming assignments       | 40% | B+  |  87--91 |
-| Online presentation           | 10% | B   |  80--86 |
-| Midterm exam                  | 15% | C+  |  77--79 |
-| Research project              | 20% | C   |  70--76 |
-| - paper (8%)                  |     | D   |  65--69 |
-| - presentation (6%)           |     | F   |   0--64 |
-| - peer review (6%)            |     |     |         |
+| Online discussion             | 15% | B+  | 87--91  |
+| Personal reflections          | 20% | B   | 80--86  |
+| Reading responses             | 15% | C+  | 77--79  |
+| Discrimination in the wild    | 15% | C   | 70--76  |
+| Research project              | 20% | D   | 65--69  |
+|  - Group presentation (10%)   |     | F   |  0--64  |
+|  - Paper (10%)                |     |     |         |
 
 ---
 
 ### Preparation and participation
 
 Students are expected to attend class prepared and to actively participate. 
-Part of this grade is derived from reading summaries. 
-Students will occasionally be required to write a brief summary (max. 1 page) of the weekly readings and answer assigned questions. 
+
+### Online discussion
+
+Occasionally students will be asked to respond to prompts and/or discuss readings using the canvas discussion forum. 
+Posts should be respectful, relevant contributions to the topic at hand and should be submitted *before* coming to class. 
 
 ---
 
-### Programming assignments
+### Personal reflections
 
-Students will complete 5 programming assignments over the course of the  semester. 
-These assignments are designed in a way so that the student must demonstrate adequate knowledge of basic programming and statistical principles covered in class. 
-The skills required in each assignment are cumulative, each building on the material learned in the previous weeks. 
-All statistical programming assignments must be completed in RMarkdown and will be handed in via GitHub unless otherwise noted.
+In these exercises students will be given a prompt and asked to reflect on their own attitudes toward non‐standard language or accents; some also require gathering information from other people and comparing their responses. (approx. 1 page)
 
----
+### Reading responses
 
-### Online presentation
-
-The presentation will be on the statistical analyses used in some published paper. 
-This presentation must be hosted on GitHub and in HTML format using RMarkdown. 
-Aside from creating an online presentation, students will also be required to read and comment on the presentations of two classmates.
+Similar to online discussions, occasionally students will be asked to discuss a particular reading. 
+Reading responses differ from online discussions in that they are expected to be longer (approx. 1 page) and more formal. 
+Reading responses should be microsoft word documents submitted via canvas. 
 
 ---
 
-### Midterm exam
+### Discrimination in the wild
 
-
-There will be an in-class exam during the 13th week of the semester (April 17th). 
-In reality the midterm exam is just another programming assignment that is worth more points. 
-Details will be provided beforehand. 
+Students will find and document examples of linguistic prejudice in the wild. 
+These can be video/audio clips, articles from written media (newspapers, blogs), or a narrative video describing a personal experience. 
+Examples should be posted to the discussion board on Canvas and be accompanied by a short (50‐100 words) statement of how the example illustrates linguistic prejudice as discussed in the course.
 
 ---
 
 ### Research Project
 
-#### Overview
+#### Group presentation
 
-Each student will complete a research project in which they put in practice the tools learned over the course of the semester. 
-The primary focus will be on managing the project in an automatic and reproducible way so that it can be shared with other collaborators. 
-The project will be hosted on GitHub and will include the following:
-
-- slides
-- manuscript
-- r code
-- data (raw and tidy)
+In groups of 2‐3, students will identify a set of speakers targeted by linguistic prejudice and some documented negative outcome of linguistic discrimination and propose steps towards mitigation. 
+Students can propose their own topics/groups, but they should shoud be approved by the professor. 
+There will be in‐class prep time and group presentations (15‐20 minutes) will take place in the final weeks of the semester.
 
 ---
-
-### Research Project
-
-#### Overview
-
-Students have two options regarding the type of project they do:
-
-1. Personal project (real)
-    - For advanced students working on their own data
-    - Ideal for QP, thesis, other projects
-2. Hypothetical project (simulated)
-    - For students w/o data
-    - Ideal for students in proposal phase (IRB, NSF, ect.)
-
-All projects require the prior approval of the professor. 
-Project due dates will be established in class, but can be expected to be due several days before the university assigned final exam (though there is no exam).
-
----
-
-### Research Project
 
 #### Paper
 
-The manuscript will be a write up of the methods/results sections of a research article. 
-The focus is on clearly and accurately explaining the statistical analyses used in the project and appropriately interpreting the results. 
-The paper must be a literate document written in RMarkdown using `papaja`. 
-We will demo this in class.
-
-#### Presentation
-
-Students will present their work in a semi-finished state during the final week of the semester (10 min. presentation + 5 min. for questions). 
-The slides of this presentation are part of the project and must also be hosted on GitHub.
-
----
-
-### Research Project
-
-#### Peer review
-
-Each student is required to evaluate the project of two other students. 
-They will fork the project in order to evaluate the reproducibility of the code and the statistical validity of the analysis. 
-Students will write up two evaluations for each peer: one for the professor (not to be seen by anybody else), and one for the owner of the project in the form of an issue/comment on GitHub. 
-The evaluation written for the professor should be longer and more in depth. 
-Both evaluations should be written in the style of a peer review for an academic journal, thus they should include comments, questions, suggestions, and *constructive* criticisms (\#BeReviewer1). 
-The point of this excersize is to help the author make the final product better.
+Each student will individually write up an expanded version of their group project providing (a) the background on a documented prejudice and/or discrimination towards some set of speakers (b) a proposal for reduction of prejudice or mitigation of its discriminatory effects and (c) a discussion of the relationship of the proposal to other proposals for mitigations and their ethical bases (5‐8 pages).
 
 ---
 layout: true
@@ -251,16 +186,8 @@ More information available at: http://span-port.rutgers.edu/learning-goals
 
 ### Communication
 
-All course communication will be via Slack. 
-You should have received an email with an invitation link to join the course Slack. 
-Some rules for using Slack:
-
-- Use an identifiable username and add your picture to your profile.
-- Only the professor is allowed to use the @channel and @here mentions.
-- While this is an informal communication channel, all rules of academic 
-discourse apply.
-- Ask and answer questions on the appropriate channel.
-- Create channels as needed, especially for study groups.
+All course communication will be via email. 
+Remember that all correspondence should include your name, RU id, and the course title/number. 
 
 ---
 
@@ -305,44 +232,9 @@ To begin this process, please complete the Registration form on the ODS web site
 
 ---
 layout: false
+class: center, middle
 
-```{r}
-#| label: syllabus-table
-#| message: false
-#| echo: false
-library("tidyverse")
-library("kableExtra")
-library("glue")
-
-# Get link to rds file
-syl <- url("https://www.jvcasillas.com/syllabi/589/calendar/calendar_s2023.rds")
-
-# Load file and build table
-readRDS(syl) %>% 
-  dplyr::select(Date, Stats, Programming) %>% 
-  kbl() %>% 
-  kable_styling(font_size = 18) %>% 
-  kable_paper(c("striped", "hover", "condensed"))
-
+.tiny[
+```{r, syllabus-293, child="../../../syllabi/293/calendar/calendar_s2023.Rmd"}
 ```
-
----
-class: title-slide-final, middle
-background-image: url(https://github.com/jvcasillas/ru_xaringan/raw/master/img/logo/ru_shield.png)
-background-size: 55px
-background-position: 9% 15%
-
-# Data Science for Linguists
-
-## https://ds4ling.github.io
-
-### Save the link to the website in your favorites
-
-More ways to contact me:  
-
-|                                                                                                            |                                   |
-| :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
-| <a href="mailto:joseph.casillas@rutgers.edu">.RUred[<i class="fa fa-paper-plane fa-fw"></i>]               | joseph.casillas@rutgers.edu       |
-| <a href="http://twitter.com/jvcasill">.RUred[<i class="fa fa-twitter fa-fw"></i>]                          | @jvcasill                         |
-| <a href="http://github.com/jvcasillas">.RUred[<i class="fa fa-github fa-fw"></i>]                          | @jvcasillas                       |
-
+]
