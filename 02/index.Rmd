@@ -72,11 +72,28 @@ background-size: 300px
 ---
 background-image: url(../assets/img/survey_qr.png)
 background-position: 90% 50%
-background-size: 500px
+background-size: 350px
 
 # About the reading...
 
+.pull-left[
+.Large[
+
+- Use your superhero id (should be *exactly* the same)
+
+- If you didn't do the reading you can say so
+
+]
+]
+
+.pull-right[
+</br></br></br></br></br>
+</br></br></br></br></br>
+</br></br></br></br></br>
+.center[
 .Large[bit.ly/ldius_survey]
+]
+]
 
 ---
 
