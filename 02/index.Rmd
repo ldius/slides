@@ -215,7 +215,7 @@ At the time she was about 8 months old
 ---
 class: inverse, middle
 
-# All spoken languages changes
+# All spoken languages change
 
 ---
 background-image: url(https://raw.githubusercontent.com/jvcasillas/media/master/teaching/img/think.png)
