@@ -329,9 +329,53 @@ class: inverse, middle
 3. Variation arising from language as a creative vehicle of free expression.
 ]
 
-Listen to these recordings. What types of variation do you notice?
-Where are these people from? What can you infer about age, gender, class, etc.?
+.pull-left[
+.large[
+- Listen to these recordings. 
 
+- What types of variation do you notice?
+
+- Where are these people from? 
+
+- What can you infer about age, gender, class, etc.?
+]
+]
+
+</br>
+
+.pull-right[
+
+<audio controls>
+  <source src="../assets/wavs/ga2.ogg" type="audio/ogg">
+  <source src="../assets/wavs/ga2.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<audio controls>
+  <source src="../assets/wavs/california16.ogg" type="audio/ogg">
+  <source src="../assets/wavs/california16.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<audio controls>
+  <source src="../assets/wavs/oklahoma5.ogg" type="audio/ogg">
+  <source src="../assets/wavs/oklahoma5.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<audio controls>
+  <source src="../assets/wavs/massachusetts6.ogg" type="audio/ogg">
+  <source src="../assets/wavs/massachusetts6.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+]
+
+???
+
+1. General American
+2. California
+3. Oklahoma
+4. Massachusetts
 
 ---
 
