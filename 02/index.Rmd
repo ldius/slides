@@ -86,7 +86,7 @@ background-size: 350px
 
 - Use if helpful
 
-- bit.ly/ldius_gd
+- [bit.ly/ldius_gd](https://docs.google.com/document/d/1BoBBtxSgAeqtQpEMbDx0TMjFkVlBL9Qe_nJ_dTnBFog/edit?usp=sharing)
 ]
 
 ---
@@ -127,7 +127,7 @@ background-size: 350px
 </br></br></br></br></br>
 </br></br></br></br></br>
 .center[
-.Large[bit.ly/ldius_survey]
+.Large[[bit.ly/ldius_survey](https://run.pavlovia.org/jvcasillas/ldius_survey)]
 ]
 ]
 
