@@ -162,7 +162,7 @@ class: inverse, middle
 .Large[
 - Morphology
 
-- Sintax
+- Syntax
 
 - Semantics
 
