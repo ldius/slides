@@ -105,6 +105,10 @@ class: inverse, middle
 # All spoken language changes
 
 ---
+background-image: url(https://raw.githubusercontent.com/jvcasillas/media/master/linguistics/gifs/thor_words_made_up.gif)
+background-size: contain
+
+---
 class: inverse, middle
 
 # All spoken languages are equal in linguistic terms
