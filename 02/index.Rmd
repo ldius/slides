@@ -365,8 +365,8 @@ class: inverse, middle
 .pull-right[
 
 <audio controls>
-  <source src="../assets/wavs/ga2.ogg" type="audio/ogg">
-  <source src="../assets/wavs/ga2.wav" type="audio/mpeg">
+  <source src="../assets/wavs/ga02.ogg" type="audio/ogg">
+  <source src="../assets/wavs/ga02.wav" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 
