@@ -239,7 +239,7 @@ background-position: 50% 50%
 
 class: inverse, middle
 
-# Other big ideas...
+# Other ideas...
 
 ---
 
