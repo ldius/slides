@@ -331,9 +331,8 @@ class: inverse, middle
 
 .pull-left[
 .large[
-- Listen to these recordings. 
 
-- What types of variation do you notice?
+- What types of variation do you notice in these recordings?
 
 - Where are these people from? 
 
