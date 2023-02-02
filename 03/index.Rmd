@@ -1,0 +1,372 @@
+---
+title   : 'Language discrimination in the US'
+subtitle: "Who has an Accent? Are some accents better than others?"
+author  : "Joseph V. Casillas, PhD"
+date    : "Rutgers University</br>Spring 2023</br>Last update: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: assets
+    css: ["hygge", "rutgers", "rutgers-fonts"]
+    nature:
+      beforeInit: ["https://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    includes:
+      in_header: "../assets/partials/header.html"
+---
+
+```{r}
+#| label: setup
+#| include: false
+options(htmltools.dir.version = FALSE)
+```
+
+```{r}
+#| label: xaringan-extra-all-the-things
+#| echo: false
+xaringanExtra::use_xaringan_extra(
+  c("tile_view", "panelset", "editable", "search")
+)
+```
+
+```{r}
+#| label: helpers
+#| echo: false
+#| message: false
+#| warning: false
+source(here::here("assets", "scripts", "helpers.R"))
+```
+
+class: inverse, middle
+
+# Housekeeping
+
+---
+background-image: url(https://st1.bgr.in/wp-content/uploads/2022/09/Google-Docs.jpg)
+background-position: 95% 50%
+background-size: 350px
+
+<!-- google docs img -->
+
+# Notes
+
+.Large[
+
+- Google doc
+
+- Open to everybody
+
+- Use if helpful
+
+- [bit.ly/ldius_gd](https://docs.google.com/document/d/1BoBBtxSgAeqtQpEMbDx0TMjFkVlBL9Qe_nJ_dTnBFog/edit?usp=sharing)
+]
+
+---
+background-image: url(https://www.jvcasillas.com/media/teaching/gifs/partner.gif)
+background-size: 400px
+background-position: 95% 50%
+
+# Warmup
+
+.pull-left[
+
+- What's one prescriptive rule/violation that bothers you? 
+Make an argument attacking or defending the "rule" or "violation".
+
+- Think of ways English is changing. 
+For example, do you parents or grandparents speak differently than you? 
+Find phonological, morphological, syntactic, semantic, lexical, etc. examples.
+Why is the speech of your generation unique? Is it bad, good, or neutral?
+
+- Have you ever been corrected on your grammar? 
+How did that make you feel? 
+If you have children (or plan to), do/would you correct them on the same issue? 
+Do/would you correct them on any language use? 
+What is/isn't important to correct and why?
+
+]
+
+---
+
+
+
+
+
+
+
+
+
+
+
+class: inverse, middle
+
+# The myth of non-accent
+
+---
+background-image: url(https://www.jvcasillas.com/media/teaching/img/think.png)
+background-size: 400px
+background-position: 95% 50%
+
+# What is an accent? 
+
+.pull-left[
+.Large[
+- What is an accent? 
+Were you surprised by the meaning (for the lay person and for linguists) when reading this chapter? 
+What are the differences between an L1 accent and an L2 accent?
+
+- Why is learning an L2 hard? What is the role of age? 
+
+- What is a dialect? What is the issue with this term? What are some synonyms for this term?
+]
+]
+
+---
+background-image: url(./assets/img/niko5b.png)
+background-size: contain
+background-color: black
+count: false
+
+---
+background-color: black
+class: center, middle
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G2XBIkHW954" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+class: center, middle
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ev7JrtoYKcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+.left[
+.Large[
+- Most people have hear the terms pidgin and creole before but don't understand what they are. 
+- Discuss your understanding of these terms. 
+- How are they related? What are the differences between them?
+]
+]
+
+.footnote[[Hawai'ian creole English](https://www.youtube.com/watch?v=Ev7JrtoYKcI)
+]
+
+---
+background-image: url(https://blog.meqasa.com/wp-content/uploads/2019/01/different-types-of-houses-in-the-world.jpg)
+background-size: 500px
+background-position: 95% 50%
+
+<!-- img: different houses -->
+
+# The "Sound House"
+
+.pull-left[
+.large[
+- Lippi Green presents a powerful analogy of the Sound House. Explain this to your group to the best of your ability. Does the Sound House example make sense in the context of your linguistic experience? How many sound houses do you have? Have you/can you change yours? Explain. 
+
+- What does the idea of style shifting do to the Sound House analogy? Many people are multilingual, and for each language they also have multiple styles. Is there a way to adapt the metaphor to account for this?
+]
+]
+
+---
+class: middle
+background-image: url(https://cdn.mos.cms.futurecdn.net/sMQCLP6mZQuyhNkow4vjSi-1200-80.jpg)
+background-size: 500px
+background-position: 95% 50%
+
+<!-- img: --> 
+
+.pull-left[
+.Large[
+How many prominent people (politicians, actors, media personalities, etc.) can you think of who speak English with an L2 accent? 
+
+What impact does their accent seem to have on the individual's life?
+]
+]
+
+---
+
+
+
+
+
+
+
+
+class: inverse, middle
+
+# The standard language myth
+
+---
+
+# The standard language myth
+
+### Consider these two statements:
+
+.Large[
+1. The fact that a word appears in a dictionary means \_\_\_\_\_.
+2. The fact that a word does not appear in a dictionary means \_\_\_\_\_.
+]
+
+### Can you come up with clear, consistent and factually accurate ways to finish these thoughts? If not, why not?
+
+---
+background-image: url(https://www.jvcasillas.com/media/teaching/gifs/partner2.gif)
+background-size: 400px
+background-position: 95% 50%
+
+# Accent reduction
+
+.pull-left[
+.Large[
+
+- Do an internet search for "accent reduction" and "lose your accent"
+
+- What kind of articles and advertisements come up? 
+
+- What credentials do the people offering these courses have? Do you see any patterns?
+]
+]
+
+---
+
+
+
+
+
+
+
+
+
+
+class: inverse, middle
+
+# Quotable
+
+---
+class: center, middle
+
+# .grey["]Without standards, without definitions, without structural law, we lapse into linguistic anarchy..grey["]
+
+### Kilpatrick (1999)
+
+---
+class: middle
+
+.pull-left[
+## Standard language is...
+]
+
+</br></br>
+
+.center[
+
+# </br>.grey["]an idea in the mind rather than a reality – a set of abstract norms to which actual usage may conform to a greater or lesser extent..grey["] 
+
+]
+
+.pull-right[
+### Milroy and Milroy (1985)
+]
+
+---
+
+class: inverse, middle
+
+# Survey
+
+---
+background-image: url(../assets/img/survey_qr.png)
+background-position: 85% 50%
+background-size: 350px
+
+# About the reading...
+
+.pull-left[
+.Large[
+
+- Use your superhero id (should be *exactly* the same)
+
+- If you didn't do the reading you can say so  
+(but do the reading next time!)
+
+]
+]
+
+.pull-right[
+</br></br></br></br></br>
+</br></br></br></br></br>
+</br></br></br></br></br>
+.center[
+.Large[[bit.ly/ldius_survey](https://run.pavlovia.org/jvcasillas/ldius_survey)]
+]
+]
+
+---
+class: inverse, middle
+
+# Next week
+
+---
+
+# Personal reflection 1
+
+.pull-left[
+
+- Interview some friends or family (a group of three or four people) and try to elicit how they feel about different varieties of English and different L2 accents. 
+- Take notes. On what do they agree? Where do they differ? (One might find accent x “friendly” while the other one finds it “unsophisticated,” for example.) 
+- Can you account for the differences, or lack of differences? What surprised you?
+- What accents do you personally dislike or find irritating? 
+- Describe a situation in which you reacted this way to a variety of English other than your own. 
+- After everything we've seen so far in this class, do you have any insight into your own reactions?
+
+]
+
+.pull-right[
+
+- 1-2 pages
+- Word document, double spaced, 12pt font
+- No need to include references or cite sources
+- Due Thursday (2/9) by 10pm
+- Hand in via canvas
+
+]
+
+---
+layout: false
+class: title-slide-final, left
+
+# References
+
+```{r}
+#| label: bib
+#| echo: false
+#| results: 'asis'
+#| message: false
+bib <- ReadBib(here("assets", "bib", "ldius.bib"), check = FALSE)
+ui <- "- "
+```
+
+```{r}
+#| label: print-bib
+#| results: 'asis'
+#| echo: false
+#| cache: false
+#| warning: false
+#| message: false
+writeLines(ui)
+print(bib[key = "lippi2012english"], 
+  .opts = list(check.entries = FALSE, 
+               style = "html", 
+               bib.style = "authoryear"))
+```
+
+
+---
+
+# A little more
+
+.large[
+
+
+]

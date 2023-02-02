@@ -1,0 +1,185 @@
+---
+title   : 'Language discrimination in the US'
+subtitle: ""
+author  : "Joseph V. Casillas, PhD"
+date    : "Rutgers University</br>Spring 2023</br>Last update: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: assets
+    css: ["hygge", "rutgers", "rutgers-fonts"]
+    nature:
+      beforeInit: ["https://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    includes:
+      in_header: "../assets/partials/header.html"
+---
+
+```{r}
+#| label: setup
+#| include: false
+options(htmltools.dir.version = FALSE)
+```
+
+```{r}
+#| label: xaringan-extra-all-the-things
+#| echo: false
+xaringanExtra::use_xaringan_extra(
+  c("tile_view", "panelset", "editable", "search")
+)
+```
+
+```{r}
+#| label: helpers
+#| echo: false
+#| message: false
+#| warning: false
+source(here::here("assets", "scripts", "helpers.R"))
+```
+
+class: inverse, middle
+
+# Housekeeping
+
+---
+background-image: url(https://st1.bgr.in/wp-content/uploads/2022/09/Google-Docs.jpg)
+background-position: 95% 50%
+background-size: 350px
+
+<!-- google docs img -->
+
+# Notes
+
+.Large[
+
+- Google doc
+
+- Open to everybody
+
+- Use if helpful
+
+- [bit.ly/ldius_gd](https://docs.google.com/document/d/1BoBBtxSgAeqtQpEMbDx0TMjFkVlBL9Qe_nJ_dTnBFog/edit?usp=sharing)
+]
+
+---
+background-image: url(../assets/img/survey_qr.png)
+background-position: 85% 50%
+background-size: 350px
+
+# About the reading...
+
+.pull-left[
+.Large[
+
+- Use your superhero id (should be *exactly* the same)
+
+- If you didn't do the reading you can say so  
+(but do the reading next time!)
+
+]
+]
+
+.pull-right[
+</br></br></br></br></br>
+</br></br></br></br></br>
+</br></br></br></br></br>
+.center[
+.Large[[bit.ly/ldius_survey](https://run.pavlovia.org/jvcasillas/ldius_survey)]
+]
+]
+
+---
+
+# Warmup
+
+- Write down one prescriptive rule violation (or a prescriptive rule) that bothers you. 
+Make an argument attacking or defending the "rule" or "violation"
+
+- Think of any ways that English is changing. 
+For example, do you parents or grandparents speak differently than you? 
+Find examples at every level (phonological, morphological, syntactic, semantic, lexical, etc). 
+What makes the speech of your generation unique? Are these changes are bad, good, or neutral?
+
+- Have you ever been corrected on your grammar? 
+How did that make you feel? 
+If you have children (or plan on having children), do/would you correct their children on that same grammatical issue? 
+Do/would you correct them on any language use? 
+What do you think is most important to correct and why?
+
+---
+
+CONtENT
+
+
+---
+
+
+
+
+
+
+
+
+
+class: inverse, middle
+
+# Quotable
+
+---
+class: middle, center
+
+## 
+
+---
+
+class: inverse, middle
+
+# Next week
+
+---
+
+# 
+
+
+
+
+---
+layout: false
+class: title-slide-final, left
+
+# References
+
+```{r}
+#| label: bib
+#| echo: false
+#| results: 'asis'
+#| message: false
+bib <- ReadBib(here("assets", "bib", "ldius.bib"), check = FALSE)
+ui <- "- "
+```
+
+```{r}
+#| label: print-bib
+#| results: 'asis'
+#| echo: false
+#| cache: false
+#| warning: false
+#| message: false
+writeLines(ui)
+print(bib[key = "lippi2012english"], 
+  .opts = list(check.entries = FALSE, 
+               style = "html", 
+               bib.style = "authoryear"))
+```
+
+
+---
+
+# A little more
+
+.large[
+
+
+]
