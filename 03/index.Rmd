@@ -152,6 +152,23 @@ class: center, middle
 ]
 
 ---
+background-image: url(https://www.jvcasillas.com/media/teaching/img/think.png)
+background-size: 400px
+background-position: 95% 50%
+
+# Something to think about
+
+.pull-left[
+.large[
+- If *SAE is something logically and reasonably required of broadcast news reporters, why was it required of James Kahakua, and not of Peter Jennings (Canada) or Dan Rathers (Texas)?
+
+- And, a more difficult question: what is right or wrong about asking Mr. Kahakua to pretend? 
+
+- If he is capable of faking an accent, why shouldn't his employer ask him to do this, for those few minutes he is reading the weather on the radio?
+]
+]
+
+---
 background-image: url(https://blog.meqasa.com/wp-content/uploads/2019/01/different-types-of-houses-in-the-world.jpg)
 background-size: 500px
 background-position: 95% 50%
@@ -198,6 +215,21 @@ class: inverse, middle
 # The standard language myth
 
 ---
+class: middle
+
+.pull-left[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H3VIRLecYpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+]
+
+.pull-right[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6pmblAALcU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+]
+
+</br>
+
+.center[.Large[Why do you think stories like this make the news?]]
+
+---
 
 # The standard language myth
 
@@ -209,6 +241,21 @@ class: inverse, middle
 ]
 
 ### Can you come up with clear, consistent and factually accurate ways to finish these thoughts? If not, why not?
+
+--
+
+.pull-left[
+.large[
+Think of 5 words that you know and/or use that are not in the dictionary, and then find 5 words that are in the dictionary but are totally unfamiliar to you. 
+]
+]
+
+.pull-right[
+.large[
+Compare and contrast these two sets of words. 
+Why do you think the totally unfamiliar words are in the dictionary while the commonly used words are not?
+]
+]
 
 ---
 background-image: url(https://www.jvcasillas.com/media/teaching/gifs/partner2.gif)
@@ -273,7 +320,27 @@ class: middle
 
 class: inverse, middle
 
-# Survey
+# About the reading
+
+---
+class: middle
+
+# What we saw this week
+
+.pull-left[
+- The social power of myths and the myth of the non-accent
+- A discussion of the definition of accent, dialect, and language
+- The difference between L1 and L2 accents
+- The analogy of the Sound House to explain the development of an L1 and L2 accent and explain the difficulty involved in trying to eliminate one accent in favor of another
+]
+
+.pull-right[
+- An introduction to the concept of a standard language and why the idea of a standard language is mythical
+- Some dictionary definitions of standard language and the problems with these definitions
+- The definitions of standard language as used by laypeople
+- A description of Preston's (1989) study of undergraduates' evaluations of "correct" American English by geographical region, and, based on his results, a layperson's
+description of a Standard American English speaker
+]
 
 ---
 background-image: url(../assets/img/survey_qr.png)
@@ -314,7 +381,8 @@ class: inverse, middle
 .pull-left[
 
 - Interview some friends or family (a group of three or four people) and try to elicit how they feel about different varieties of English and different L2 accents. 
-- Take notes. On what do they agree? Where do they differ? (One might find accent x “friendly” while the other one finds it “unsophisticated,” for example.) 
+- Discuss the myth of \*SAE by asking them to define it and give examples of who speaks it.
+- Take notes. On what do they agree? Where do they differ?
 - Can you account for the differences, or lack of differences? What surprised you?
 - What accents do you personally dislike or find irritating? 
 - Describe a situation in which you reacted this way to a variety of English other than your own. 
@@ -360,13 +428,3 @@ print(bib[key = "lippi2012english"],
                style = "html", 
                bib.style = "authoryear"))
 ```
-
-
----
-
-# A little more
-
-.large[
-
-
-]
