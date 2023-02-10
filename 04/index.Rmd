@@ -347,6 +347,7 @@ background-color: black
 count: false
 background-image: url("./assets/img/lena1.jpg")
 background-size: contain
+exclude: true
 
 ???
 
@@ -360,6 +361,7 @@ background-image: url("./assets/img/lena2.jpg")
 background-size: contain
 background-color: black
 count: false
+exclude: true
 
 ???
 
@@ -370,6 +372,7 @@ background-image: url("./assets/img/vincentMyers1.jpg")
 background-size: contain
 background-color: black
 count: false
+exclude: true
 
 ???
 
@@ -380,6 +383,7 @@ background-image: url("./assets/img/susan1.jpg")
 background-size: contain
 background-color: black
 count: false
+exclude: true
 
 ???
 
@@ -390,9 +394,11 @@ background-image: url("./assets/img/susan2.png")
 background-size: contain
 background-color: black
 count: false
+exclude: true
 
 ---
 class: middle
+exclude: true
 
 <div align="center">
   <img width="30%" src="./assets/img/lena1.jpg">
