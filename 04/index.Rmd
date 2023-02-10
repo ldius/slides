@@ -64,33 +64,6 @@ background-size: 350px
 ]
 
 ---
-background-image: url(../assets/img/survey_qr.png)
-background-position: 85% 50%
-background-size: 350px
-
-# About the reading...
-
-.pull-left[
-.Large[
-
-- Use your superhero id (should be *exactly* the same)
-
-- If you didn't do the reading you can say so  
-(but do the reading next time!)
-
-]
-]
-
-.pull-right[
-</br></br></br></br></br>
-</br></br></br></br></br>
-</br></br></br></br></br>
-.center[
-.Large[[bit.ly/ldius_survey](https://run.pavlovia.org/jvcasillas/ldius_survey)]
-]
-]
-
----
 background-image: url(https://historydaily.org/content/75049/169e320cc6ef9ebf62dc56f26c16486c.jpg)
 background-position: 95% 50%
 background-size: 350px
