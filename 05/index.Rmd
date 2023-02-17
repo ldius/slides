@@ -104,7 +104,7 @@ background-image: url(https://www.jvcasillas.com/media/teaching/img/think.png)
 background-position: 95% 50%
 background-size: 400px
 
-# Heading
+# About the reading
 
 .Large[
 .pull-left[
@@ -578,35 +578,53 @@ map tasks (in pairs)
 ---
 count: false
 background-color: black
-exclude: true
+exclude: false
 
 ```{r}
 #| label: plot-vowels
 
 ldius_vowels <- tibble::tribble(
   ~'id', ~'vowel', ~'f1', ~'f2', 
-  "Samantha", "i",     313, 2455, 
-  "Samantha", "u",     382, 1094, 
-  "Rosie", "i",        415, 2689,
-  "Rosie", "u",        395, 963,
-  "Salma", "i",        389, 2769,
-  "Salma", "u",        456, 916,
-  "Nathalia", "i",     291, 1854,
-  "Nathalia", "u",     358, 966,
-  "Esther", "i",       384, 2441,
-  "Esther", "u",       420, 488,
-  "Alyssa", "i",       279, 2543,
-  "Alyssa", "u",       288, 678,
-  "Marisa", "i",       325, 2861,
-  "Marisa", "u",       325, 839
+  "Joseph", "i",     318, 2416, 
+  "Joseph", "u",     308, 1136, 
+  "evc",    "i",     323, 2566, 
+  "evc",    "u",     487, 2183, 
+  "sn",     "i",     303, 2591, 
+  "sn",     "u",     302, 1630, 
+  "nc",     "i",     311, 2382, 
+  "nc",     "u",     299, 1634, 
+  "jmt",    "i",     301, 2452, 
+  "jmt",    "u",     436, 1810, 
+  "sanjana", "i",     305, 3116, 
+  "sanjana", "u",     401, 1338, 
+  "varshini", "i",     300, 2816, 
+  "varshini", "u",     277, 1455, 
+  "vicki", "i",     295, 2223, 
+  "vicki", "u",     417, 1702, 
+  "mohraty", "i",     296, 2420, 
+  "mohraty", "u",     387, 1908, 
+  "nirali", "i",     349, 962, 
+  "nirali", "u",     393, 1720, 
+  "anshurta", "i",     369, 2567, 
+  "anshurta", "u",     316, 1478, 
+  "anna", "i",     333, 915, 
+  "anna", "u",     480, 1494, 
+  "caroline", "i",     483, 2468, 
+  "caroline", "u",     438, 1267, 
+  "riya", "i",     316, 2783, 
+  "riya", "u",     435, 1712, 
+  "samantha", "i",     312, 2672, 
+  "samantha", "u",     430, 1538, 
+  "yahaira", "i",     355, 2632, 
+  "yahaira", "u",     430, 1545
 ) %>% 
   mutate(is_bradlow = "Class")
 
 bradlow <- tibble(
-  id = glue::glue("bradlow{rep(1:10, times = 2)}"), 
-  vowel = rep(c("i", "u"), each = 10), 
-  f1 = c(rnorm(10, 268, 20), rnorm(10, 326, 26)), 
-  f2 = c(rnorm(10, 2393, 239), rnorm(10, 1238, 160)), 
+  id = "bradlow", 
+  vowel = rep(c("i", "u", "a"), each = 10), 
+  f1 = c(rnorm(10, 268, 20), rnorm(10, 326, 26), rnorm(10, 780, 83)), 
+  f2 = c(rnorm(10, 2393, 239), rnorm(10, 1238, 160), rnorm(10, 1244, 145)), 
   is_bradlow = "1995 avg."
 ) %>% 
   arrange(id)
@@ -651,7 +669,7 @@ all_data %>%
 ---
 count: false
 background-color: black
-exclude: true
+exclude: false
 
 ```{r}
 #| label: get-data
