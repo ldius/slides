@@ -64,6 +64,47 @@ background-size: 350px
 ]
 
 ---
+
+# Warmup
+
+- 
+
+---
+
+CONtENT
+
+
+---
+
+
+
+
+
+
+
+
+
+class: inverse, middle
+
+# Quotable
+
+---
+class: middle, center
+
+## 
+
+---
+class: inverse, middle
+
+# About the reading
+
+---
+
+# What we saw this week
+
+- 
+
+---
 background-image: url(../assets/img/survey_qr.png)
 background-position: 85% 50%
 background-size: 350px
@@ -89,48 +130,6 @@ background-size: 350px
 .Large[[bit.ly/ldius_survey](https://run.pavlovia.org/jvcasillas/ldius_survey)]
 ]
 ]
-
----
-
-# Warmup
-
-- Write down one prescriptive rule violation (or a prescriptive rule) that bothers you. 
-Make an argument attacking or defending the "rule" or "violation"
-
-- Think of any ways that English is changing. 
-For example, do you parents or grandparents speak differently than you? 
-Find examples at every level (phonological, morphological, syntactic, semantic, lexical, etc). 
-What makes the speech of your generation unique? Are these changes are bad, good, or neutral?
-
-- Have you ever been corrected on your grammar? 
-How did that make you feel? 
-If you have children (or plan on having children), do/would you correct their children on that same grammatical issue? 
-Do/would you correct them on any language use? 
-What do you think is most important to correct and why?
-
----
-
-CONtENT
-
-
----
-
-
-
-
-
-
-
-
-
-class: inverse, middle
-
-# Quotable
-
----
-class: middle, center
-
-## 
 
 ---
 
