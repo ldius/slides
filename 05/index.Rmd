@@ -431,6 +431,10 @@ Listener reactions (theoretically) indicate something about how the listeners vi
 ]
 
 ---
+background-image: url(./assets/img/matched_guise.png)
+background-size: contain
+
+---
 class: middle, center
 
 # <grey>Arizona</grey>
