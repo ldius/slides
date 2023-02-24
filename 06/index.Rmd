@@ -1,6 +1,6 @@
 ---
 title   : 'Language discrimination in the US'
-subtitle: ""
+subtitle: "Who is affected by linguistic prejudice? Racial/Ethnic groups"
 author  : "Joseph V. Casillas, PhD"
 date    : "Rutgers University</br>Spring 2023</br>Last update: `r Sys.Date()`"
 output:
@@ -67,12 +67,80 @@ background-size: 350px
 
 # Warmup
 
-- 
+.pull-left[
+.Large[
+<br>
+- How many of these terms were you familiar with before this week?
+
+- What are some problems associated with some of them?
+]
+]
+
+.pull-right[
+.content-box-blue[
+.Large[
+- Black language
+- Black English
+- Black (Vernacular) English
+- Black English Vernacular
+- AVE
+- AAVE
+- Ebonics
+- African American Verbal Tradition
+]
+]
+]
 
 ---
 
-CONtENT
 
+
+
+
+
+
+
+
+
+
+
+
+class: inverse, middle
+
+# Smedley & Smedley (2005)
+
+
+---
+background-image: url(https://www.jvcasillas.com/media/teaching/gifs/partner.gif)
+background-size: 400px
+background-position: 95% 50%
+
+# Smedley & Smedley (2005)
+
+.pull-left[
+.large[
+- What is racialized science? 
+What does it aim to do?
+
+- What is a crucial claim of those that partake in racialized science? 
+
+- According to racialized science, what explains the disproportionate representation of some "racial" groups among lower socioeconomic tiers? 
+
+- If race is not a biological or anthropological reality, should race play a role in policy discussions?
+
+- What is the purpose of this article? 
+]
+]
+
+???
+
+Racialized science emphasizes identifying immutable differences between racial groups in order to maintain and reinforce existing racial inequality
+
+Racialized scientists claim that no degree of government intervention or social change will alter the skills and abilities of different racial groups
+
+Disproportionate representation is an unavoidable byproduct of human evolution
+
+Purpose of article is to "examine the origins of the concept of race, placing the contemporary discussion of racial differences in an anthropological and historical context"
 
 ---
 
@@ -86,12 +154,212 @@ CONtENT
 
 class: inverse, middle
 
+# EWA: Ch. 10
+
+---
+
+# Grammar: resistance is futile
+
+.center[
+### "[...] listeners are able to identify accurately the ethnicity of Black and white speakers on the basis of tape-recorded samples of their speech, some less than 2.5 seconds long."
+]
+
+.Large[
+- How does this work?
+
+- Can you do it?
+
+- Discuss some of the linguistic characteristics of AAVE. 
+Consider the different areas of linguistics we have talked about in class. 
+]
+
+???
+
+How? Mainly via phonology
+prosody (pitch range, tone, intonation, syllable structure, rhythm)
+
+---
+background-image: url(./assets/img/10_0.png), url(./assets/img/10_1.png)
+background-position: 0% 2%, 0% 90%
+background-size: contain, contain
+
+---
+background-image: url(./assets/img/10_0.png), url(./assets/img/10_2.png)
+background-position: 0% 2%, 0% 88%
+background-size: contain, contain
+count: false
+
+---
+background-image: url(./assets/img/10_0.png), url(./assets/img/10_3.png)
+background-position: 0% 2%, 0% 88%
+background-size: contain, contain
+count: false
+
+---
+
+# Listen up
+
+.center[https://routledgetextbooks.com/textbooks/_author/lippi-green-9780415559119/chapter10.php]
+
+.Large[
+1. Listen to the samples from African American speakers from several states. 
+Do you notice any variation in the varieties of AAVE used by these speakers?
+
+2. Listen to the samples of other dialects of English other than AAVE and consult the description of some features of AAVE provided on page 183. 
+Do you hear any of those features in the non-AAVE dialects?
+]
+
+---
+background-image: url(./assets/img/greene_quote.png), url(https://charlie-p-2ac84d7056ca7f9d.s3.amazonaws.com/clips/thumbnails/000/012/269/feat_full/1HY0221_001_lt.jpg?1456516588)
+background-size: 800px, 400px
+background-position: 0% 30%, 95% 33%
+
+# Anglo attitudes toward AAVE
+
+<br><br><br><br>
+<br><br><br><br>
+<br><br>
+
+.pull-left[
+.content-box-blue[
+.large[
+- Discuss this quote.  
+- What are the main problems with this argument (linguistic and otherwise)? 
+]
+]
+]
+
+--
+
+.pull-right[
+.content-box-green[
+.large[
+- Have you ever heard others criticize AAVE? 
+What were the criticisms? 
+- Do they hold up with regarding what we've learned about language variation and change, \*SAE, etc.
+]
+]
+]
+
+???
+
+bob greene image
+
+factually incorrect assumptions. 
+Black children learn AAVE not from television actors and sports figures (as Greene surmises), but in their homes, as their first and native variety of U.S. English. 
+
+More importantly, Greene assumes that the only role models that African American children have are these sports and entertainment individuals, and further, that a good role model will not sound Black.
+
+---
+background-image: url(./assets/img/spears_quote.png)
+background-size: 800px
+background-position: 100% 0%
+
+.footnote[
+.Large[
+If you are not a speaker of AAVE, has this happened to you or have you witnessed something like this? 
+Is this outdated due to social media/television/etc.?
+]
+]
+
+---
+class: center, middle
+
+<video width="75%" controls>
+  <source src="./assets/img/obama.mp4" type="video/mp4">
+  <source src="./assets/img/obama.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
+---
+class: center, middle
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/T5X3cu1B87k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/i8o0dMePYFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+class: middle
+
+.pull-left[
+.Large[
+Lippi-Green talks about the selective appropriation of AAVE lexical items into other varieties of English.
+
+Can you think of any examples of this?
+]
+]
+
+--
+background-image: url(./assets/img/cam_thomas.png)
+background-size: contain
+background-position: 100% 50%
+count: false
+
+.footnote[
+[Article](https://www.sportskeeda.com/basketball/how-cam-thomas-ain-t-shit-funny-meme-originate-exploring-hilarious-trend-came-viral)
+]
+
+---
+class: center, middle
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NTNsrlK7y8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+class: center, middle
+
+```{r}
+#| label: tiktok1
+#| echo: false
+t1_url <- "https://www.tiktok.com/@brooklynnets/video/7197635391363681582?lang=en"
+t1 <- tiktok_embed(t1_url)
+t1
+
+```
+
+---
+class: center, middle
+
+<iframe width="476" height="847" src="https://www.youtube.com/embed/blCYXgi8ge4" title="Cam Thomas “Sh*t ain’t Funny”" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+background-image: url(./assets/img/kendall_jenner1.png), url(./assets/img/kendall_jenner2.png)
+background-size: 500px, 500px
+background-position: 10% 50%, 90% 50%
+
+---
+class: center, middle
+
+<video width="75%" controls>
+  <source src="./assets/img/kendall.mp4" type="video/mp4">
+  <source src="./assets/img/kendall.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
+---
+
+
+class: inverse, middle
+
 # Quotable
 
 ---
 class: middle, center
 
-## 
+# It is not the Black child’s language which is despised: It is his experience.
+
+### .right[James Baldwin, "Nobody knows my name" (1985b)]
+
+???
+
+In line with general view that discrimination against the language of somebody is discrimination against the person
+
+---
+class: middle, center
+
+# It has been established that AAVE has a rule-governed grammar. As this is the case for all living languages, it could be said that grammar is inevitable, and resistance is futile. To ignore this fact about AAVE is to demonstrate ignorance, condescension and disrespect.
+
+### .right[Lippi-Green (2010)]
 
 ---
 class: inverse, middle
@@ -102,7 +370,15 @@ class: inverse, middle
 
 # What we saw this week
 
-- 
+.Large[
+- Features of African American English
+
+- Stereotypes around AAVE and the internal variation among AAVE speakers
+
+- Anglo attitudes towards AAVE
+
+- The complexity of African American attitudes towards AAVE
+]
 
 ---
 background-image: url(../assets/img/survey_qr.png)
@@ -139,9 +415,22 @@ class: inverse, middle
 
 ---
 
-# 
+# For next week
+
+### PR2
+
+- What misconceptions did you have about AAVE before you began reading this chapter? 
+Do you think the readings/discussions will have any long-term effect on your beliefs and reactions?
+- What types of public figures do you think use AAVE the most on television (e.g. politicians, actors, athletes, musicians, writers, newscasters, etc.)? 
+Why do you think some groups use AAVE more than others?
+- Take notes on any use of AAVE while you watch TV over a set time period.
+Note who uses AAVE, as well as the context of the utterance and some general information about what features of AAVE were used. 
+For example, did the speaker use general intonational features, pronunciations, or grammatical features of AAVE? 
+Can you find any patterns in your data? 
+Reflect on what you found and how you think your findings reflect standard language ideology.
 
 
+### **PR1 should be no more than 1-2 pages typed (word document, double spaced, 12pt font). You do not need to include references or cite sources.**
 
 
 ---
@@ -171,14 +460,10 @@ print(bib[key = "lippi2012english"],
   .opts = list(check.entries = FALSE, 
                style = "html", 
                bib.style = "authoryear"))
+
+writeLines(ui)
+print(bib[key = "smedley2005"], 
+  .opts = list(check.entries = FALSE, 
+               style = "html", 
+               bib.style = "authoryear"))
 ```
-
-
----
-
-# A little more
-
-.large[
-
-
-]
