@@ -323,9 +323,8 @@ class: center, middle
 <iframe width="476" height="847" src="https://www.youtube.com/embed/blCYXgi8ge4" title="Cam Thomas “Sh*t ain’t Funny”" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
-background-image: url(./assets/img/kendall_jenner1.png), url(./assets/img/kendall_jenner2.png)
-background-size: 500px, 500px
-background-position: 10% 50%, 90% 50%
+background-image: url(./assets/img/kendall_jenner1.png)
+background-size: contain
 
 ---
 class: center, middle
