@@ -14,6 +14,12 @@ library("stringr")
 library("ggplot2")
 library("ggdark")
 library("patchwork")
+library("tidybayes")
+library("ggdist")
+
+# Stats
+library("brms")
+library("emmeans")
 
 # Misc
 library("knitr")
