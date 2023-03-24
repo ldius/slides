@@ -111,6 +111,12 @@ background-image: url(./assets/img/map_south.png)
 background-size: contain
 
 ---
+class: middle, center
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H1KP4ztKK0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+---
 
 # Get to know the South
 
@@ -356,12 +362,20 @@ exclude: true
 
 # Accent reduction (revisited)
 
+.pull-left[
+
 - Why do you think Southern English is devalued while Western and Midwestern English are more highly valued?
 
 - What could be behind this language ideology?
 
 - 
 
+]
+
+.pull-right[
+
+
+]
 
 ---
 
