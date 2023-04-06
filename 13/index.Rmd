@@ -1,6 +1,6 @@
 ---
 title   : 'Language discrimination in the US'
-subtitle: "Who is affected by linguistic prejudice? Linguistic origins."
+subtitle: "How does linguistic prejudice reflect and reinforce prejudice in the world?<br>Housing & health care"
 author  : "Joseph V. Casillas, PhD"
 date    : "Rutgers University</br>Spring 2023</br>Last update: `r Sys.Date()`"
 output:
@@ -21,6 +21,14 @@ output:
 #| label: setup
 #| include: false
 options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  echo = FALSE, 
+  out.width = "100%", 
+  fig.asp = 0.5625, 
+  fig.retina = 2, 
+  dpi = 300
+  )
+
 ```
 
 ```{r}
@@ -64,17 +72,28 @@ background-size: 350px
 ]
 
 ---
+background-image: url(https://www.jvcasillas.com/media/teaching/img/think.png)
+background-size: 400px
+background-position: 95% 50%
 
 # Warmup
 
+.pull-left[
+.Large[
+
 - 
 
----
-
-CONtENT
-
+]
+]
 
 ---
+
+CONTENT
+
+---
+
+
+
 
 
 
@@ -91,7 +110,16 @@ class: inverse, middle
 ---
 class: middle, center
 
-## 
+## QUOTE.
+
+### .right[PERSON]
+
+---
+class: middle, center
+
+## QUOTE.
+
+### .right[PERSON]
 
 ---
 class: inverse, middle
@@ -102,7 +130,21 @@ class: inverse, middle
 
 # What we saw this week
 
-- 
+.pull-left[
+.large[
+
+- list
+
+]
+]
+
+.pull-right[
+.large[
+
+- list
+
+]
+]
 
 ---
 background-image: url(../assets/img/survey_qr.png)
@@ -139,10 +181,13 @@ class: inverse, middle
 
 ---
 
-# 
+# Next week
 
+.Large[
 
+- next week
 
+]
 
 ---
 layout: false
@@ -173,12 +218,3 @@ print(bib[key = "lippi2012english"],
                bib.style = "authoryear"))
 ```
 
-
----
-
-# A little more
-
-.large[
-
-
-]
