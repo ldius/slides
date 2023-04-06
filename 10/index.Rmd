@@ -64,26 +64,99 @@ background-size: 350px
 ]
 
 ---
+exclude: true
 
 # Warmup
 
 - 
 
 ---
+background-image: url(./assets/img/celebrating_english_accents.png)
+background-position: 100% 50%
+background-size: contain
+class: middle
 
-CONtENT
-
+# Upcoming events
+# Don't forget
 
 ---
+background-image: url(./assets/img/mena_poster1.png)
+background-size: contain
 
+---
+background-image: url(./assets/img/mena_poster2.png)
+background-size: contain
 
+---
+class: middle, center
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h6JtmMAvf1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+---
+background-image: url(./assets/img/fig_13_1.png)
+background-size: contain
 
+---
+background-image: url(./assets/img/fig_13_2.png)
+background-size: contain
 
+---
+background-image: url(./assets/img/are_country.png)
+background-size: contain
 
+---
+background-image: url(./assets/img/get_out.png)
+background-size: contain
 
+---
+background-image: url(./assets/img/speak_english.png)
+background-size: contain
 
+---
+class: middle
+
+## Listen to the samples of people speaking English with different L2 accents. Which of these accents do you think would be most tolerated or embraced in your area? Which would be least tolerated or embraced? Why?
+
+.Large[
+.pull-left[
+
+- [Greek](https://www.dialectsarchive.com/greece)
+- [Farsi](http://accent.gmu.edu/browse_language.php?function=find&language=farsi)
+- [Portuguese](http://accent.gmu.edu/browse_language.php?function=find&language=portuguese)
+- [Sweedish](http://www.dialectsarchive.com/sweden)
+- [Dutch](http://accent.gmu.edu/browse_language.php?function=find&language=dutch)
+- [Gaelic](http://accent.gmu.edu/searchsaa.php?function=detail&speakerid=857)
+- [French](http://www.dialectsarchive.com/france)
+]
+
+.pull-right[
+
+- [Spanish](http://accent.gmu.edu/browse_language.php?function=find&language=spanish) (various)
+- [Colombian](http://www.dialectsarchive.com/colombia)
+- [Puerto Rican](http://accent.gmu.edu/browse_language.php?function=detail&speakerid=329)
+- [Rumanian](http://www.dialectsarchive.com/romania)
+- [Thai](http://accent.gmu.edu/browse_language.php?function=find&language=thai)
+- [Urdu](http://accent.gmu.edu/browse_language.php?function=find&language=urdu)
+]
+]
+
+---
+class: middle
+
+.pull-left[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TBYCBkQnjBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8ni0RwuxxwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+]
+
+.Large[
+.pull-right[
+<br><br><br><br>
+- How would you evaluate the arguments for the English-only policies described in these videos in light of the content in Chapter 13?
+]
+]
+
+---
 class: inverse, middle
 
 # Quotable
@@ -91,7 +164,16 @@ class: inverse, middle
 ---
 class: middle, center
 
-## 
+## When immigrants become bilingual (as happened, for example, in the case of the German immigrant population, something that would have irritated Benjamin Franklin, no doubt), the question is no longer which language, but which English or more specifically in this chapter, which accent and ultimately, which race, ethnicity, religion, worldview.
+
+### .right[Lippi-Green (2010)]
+
+---
+class: middle, center
+
+## "I was practically raised in this country," he said, speaking in a soft lilting accent. "But I have this accent. Does that mean I’m not an American? I don’t know."
+
+### .right[Hernandez (1993)]
 
 ---
 class: inverse, middle
@@ -102,7 +184,13 @@ class: inverse, middle
 
 # What we saw this week
 
-- 
+.Large[
+- A discussion of immigration to America, the notion of the American melting pot, and multilingualism
+
+- An overview of the number of immigrants and bi- and multilingual people in the United States
+
+- A discussion of discrimination against certain L2 accents
+]
 
 ---
 background-image: url(../assets/img/survey_qr.png)
